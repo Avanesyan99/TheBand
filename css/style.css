@@ -1,0 +1,335 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	width: 100%;
+}
+body {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 16px;
+}
+ul {
+	list-style-type: none;
+}
+header {
+	position: relative;
+}
+header nav {
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: #000;
+	display: flex;
+	justify-content: space-between;
+}
+header nav a {
+	display: inline-block;
+	padding: 12px 26px;
+	text-decoration: none;
+	color: #fff;
+}
+header nav .div1 a:hover {
+	background-color: #ccc;
+	color: #000;
+}
+header nav .div2 .diva1:hover {
+	background-color: #f44336;
+}
+header nav .div2 .diva2:hover {
+	background-color: #ccc;
+	color: #000;
+}
+.diva2 {
+	display: none;
+	position: relative;
+	top: 0;
+}
+.more {
+	position: relative;
+}
+.menu2 {
+	box-shadow: 0 2px 5px 0;
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	color: #000;
+	top: 48px;
+	left: 0;
+}
+.menu2 li {
+	border: none;
+	padding: 9px 60px 9px 15px;
+}
+.menu2 li:hover {
+	background-color: #eee;
+}
+.more:hover .menu2 {
+	display: block;
+}
+main {
+	text-align: center;
+}
+.title {
+	font-weight: 400;
+	letter-spacing: 3px;
+	margin: 10px 0;
+}
+.titlebl {
+	font-weight: 400;
+	letter-spacing: 3px;
+	margin: 10px 0;
+	color: #fff;
+}
+.itext {
+	margin: 10px 0;
+	color: #000;
+	opacity: 0.6;
+}
+.itextbl {
+	margin: 10px 0;
+	color: #fff;
+	opacity: 0.6;
+}
+#band {
+	max-width: 900px;
+	margin: 40px auto;
+	padding: 40px 10px;
+}
+#band p {
+	margin: 20px 0;
+	text-align: justify;
+}
+.bandimgs {
+	margin: 40px 0 20px 0;
+	display: flex;
+	justify-content: space-around;
+}
+.bandimgs .imgdiv {
+	width: 20%;
+}
+.bandimgs .imgdiv span {
+	font-size: 18px;
+}
+.bandimgs .imgdiv img {
+	margin: 10px 0;
+	border-radius: 5px;
+}
+.back {
+	background-color: #000;
+}
+#tour {
+	padding: 60px 10px;
+	max-width: 900px;
+	margin: 50px auto;
+}
+#tour ul {
+	margin: 30px 0;
+}
+#tour ul li {
+	text-align: left;
+	border: 1px solid #ddd;
+	padding: 8px 16px;
+	background-color: #f1f1f1;
+}
+#tour ul .lisold .spred {
+	margin: 0 10px;
+	color: #fff;
+	background-color: #f44336;
+	padding: 3px;
+}
+#tour ul li .opsp {
+	opacity: 0.6;
+}
+#tour ul .li3 {
+	display: flex;
+	justify-content: space-between;
+}
+#tour ul .li3 .spbl {
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #000;
+}
+.tickets {
+	margin: 20px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.tickets .tick {
+	margin-bottom: 20px;
+	width: 32%;
+}
+.tick img {
+	vertical-align: middle;
+}
+.tick img:hover {
+	opacity: 0.7;
+}
+.tick .texts {
+	text-align: left;
+	padding: 20px;
+	background-color: #fff;
+}
+.tick .texts h4 {
+	margin-bottom: 5px;
+}
+.tick .texts span {
+	opacity: 0.6;
+}
+.tick .texts p {
+	margin: 5px 0;
+}
+.tick .texts button {
+	border: none;
+	background-color: #000;
+	color: #fff;
+	margin-: 10px;
+	font-size: 18px;
+	padding: 8px 16px;
+	cursor: pointer;
+}
+.tick .texts button:hover {
+	background-color: #ccc;
+	color: #000;
+}
+#cont {
+	max-width: 900px;
+	padding: 40px 20px;
+	margin: 40px auto;
+}
+.flex {
+	margin: 50px 0;
+	display: flex;
+	text-align: left;
+}
+.addres {
+	width: 48%;
+	margin: 10px 0;
+}
+.addres i {
+	display: inline-block;
+	width: 30px;
+	font-size: 20px;
+}
+.addres p {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.reg {
+	margin: 10px 0; 
+	width: 48%;
+}
+.reg form {
+	position: relative;
+}
+.reg form input {
+	font-size: 16px;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+.flip2 {
+	display: flex;
+	flex-direction: column;
+	width: inherit;
+	margin-top: 10px;
+}
+.flip {
+	display: flex;
+}
+.flip input {
+	width: 49%;
+}
+.flip .inp2 {
+	margin-left: 10px;
+}
+.reg form button {
+	margin: 15px 0;
+	position: absolute;
+	right: 0;
+	font-size: 18px;
+	padding: 8px 16px;
+	border: none;
+	color: #fff;
+	background-color: #000;
+}
+.reg form button:hover {
+	background-color: #ccc;
+	color: #000
+}
+footer {
+	text-align: center;
+	padding: 70px 10px;
+}
+footer p {
+	opacity: 0.6;
+	margin: 5px 0;
+}
+footer p a {
+	color: #000;
+	text-decoration: none;
+}
+footer p a:hover {
+	color: #ffad00;
+	opacity: 1;
+}
+footer .icons i {
+	font-size: 24px;
+	opacity: 0.6;
+}
+footer .icons i:hover {
+	opacity: 0.4;
+}
+@media only screen and (max-width: 660px) {
+	header nav .div1 .diva {
+		display: none;
+	}
+	header nav .div1 .more {
+		display: none;
+	}
+	header nav .div2 .diva1 {
+		display: none;
+	}
+	.diva2 {
+		display: block;
+	}
+	.bandimgs {
+		display: block;
+	}
+	.bandimgs .imgdiv {
+		width: 70%;
+		margin: 0 auto;
+	}
+	.tickets {
+		display: block;
+	}
+	.tickets .tick {
+		width: 100%;
+	}
+	.flex {
+		display: block;
+	}
+	.addres {
+		width: 100%;
+	}
+	.reg {
+		width: 100%;
+	}
+	.flip {
+		display: block;
+	}
+	.flip input {
+		width: 100%;
+	}
+	.flip2 input {
+		width: 100%;
+	}
+	.flip .inp2 {
+		margin-left: 0;
+	}
+}
+
+
+
